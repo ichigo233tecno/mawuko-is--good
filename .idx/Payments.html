@@ -5,6 +5,48 @@
     <meta charset="UTF-8">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Payment Methods</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .payment-methods {
+            width: 20%;
+            height: 90;
+            margin: 20px auto;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .payment-methods h3 {
+            text-align: left;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .payment-methods label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            display: block;
+            width: 90%;
+            padding: 10%;
+            background-color: #e0e6e7f2;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class = "payment-methods">
@@ -34,7 +76,6 @@
                 <input type="radio" name="payment-method" value="Cash">
             </label><br><br>
 
-           <a href = "add card.html">
             <button>Add debit/credit card</button>  
            </a>
         </form>

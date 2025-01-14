@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        body{
+            font-family:'Arial',sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+
+        }
+        .container{
+            max-width: 300;
+            margin: 0;
+            color: #333;
+            height: 90;
+            display:flex;
+            flex-direction:column;
+            justify-content:space-around;
+            padding: 9px;
+            box-shadow:0 1px 3px rgba;
+
+        }
+        .header{
+            display: flex ;
+            align-items: center;
+            padding:9px 0 ;
+
+        }
+        .header i{
+            font: size 15px;
+            margin-right: 9px;
+
+        }
+        header h1{
+            font-size: 17px;
+            font-weight:bold;
+            margin:0 ;
+
+        }
+        .empty-cart{
+            text-align:center;
+            color:#888 ;
+            margin : 0 auto;
+
+
+        }
+        .empty-cart img{
+            width:30px ;
+            height: 30px;
+
+        }
+        .empty-cart p{
+            margin-top: 9px; ;
+            font-size: 13px ;
+
+        }
+        .footer{
+            display: flex ;
+            justify-content:space-between ;
+            padding: 9px 0 ;
+            font-size: 13px ;
+            font-weight: bold ;
+
+        }
+        .footer span{
+            color: #333 ;
+
+        }
+        .footer .total span{
+            color:black ;
+            font-size: 15px ;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i> </i>
+            <h1>Cart</h1>
+        </div>
+        <ldiv class="empty-cart">
+            <img src="./Pictures/Cart.jpeg" alt ="empty-cart icon">
+            <p>No items in your Cart</p>
+        </ldiv><br><br><br><br><br><br>
+        <div class="footer">
+            <div class="subtotal">
+                <span>Subtotal:</span>
+                <span>$0.00</span><br>
+    
+
+        </div>
+        <div class="total">
+            <span>Total:</span>
+            <span>$0.00</span>
+        </div>s
+
+</body>
+</html>
